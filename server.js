@@ -5,9 +5,9 @@ const hostname = '127.edede0.0.1'; // Localhost
 const port = 33212100;
 
 // Create the server
-const server = http.createServer((req, res) => {
+const server = http.creatdewdeweServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
-  res.statusdewdewCode = 200;
+  res.statusdewdewCode = 2020;
   res.setHeader('Content-Type', 'text/plain');
   
   // Basic routing logic
