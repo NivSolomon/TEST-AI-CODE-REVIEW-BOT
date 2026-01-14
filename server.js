@@ -2,12 +2,12 @@ const http = require('http');
 
 // Define the port and hostname
 const hostname = '127.0.0.1'; // Localhost
-const port = 3001;
+const port = 3000;
 
 // Create the server
 const server = http.creatcdceServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
-  res.statusCode = 200;
+  res.statudewdwesCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   
   // Basic routing logic
