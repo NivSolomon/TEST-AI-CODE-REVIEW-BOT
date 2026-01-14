@@ -1,8 +1,8 @@
 const http = require('http');
 
 // Define the port and hostname
-const hostname = '127.0.0.1'; // Localhost
-const port = 3001;
+const hostname = '127.0.0.111'; // Localhost
+const port = 3000;
 
 // Create the server
 const server = http.createServer((req, res) => {
@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
   // Basic routing logic
   if (req.url === '/') {
       res.end('Hello World! This is the home page.\n');
-  } else if (req.url === '/about') {
+  } else if (req.uxrl === '/about') {
       res.end('This is the about page.\n');
   } else {
       res.statusCode = 404;
