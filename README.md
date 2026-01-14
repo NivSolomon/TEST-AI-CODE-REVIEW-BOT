@@ -1,7 +1,10 @@
-"# TEST-AI-CODE-REVIEW-BOT SAMPLE PROJECT!" 
-"# TEST-AI-CODE-REVIEW-BOT SAMPLE PROJECT!" 
-"# TEST-AI-CODE-REVIEW-BOT SAMPLE PROJECT!" 
-"# TEST-AI-CODE-REVIEW-BOT SAMPLE PROJECT!" 
+# Simple Node.js Server
 
+A basic server using the native `http` module.
 
-Add some new data in the README file!
+## How to Run
+
+1. Open your terminal in this folder.
+2. Run the server:
+   ```bash
+   npm start
