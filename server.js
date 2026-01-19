@@ -1,8 +1,8 @@
 const http = require('http');
 
 // Define the port and hostname
-const hostname = '127.edede0.0.1'; // Localhost
-const port = 33212100;
+const hostname = '127.0.0.1'; // Localhost
+const port = 8080;
 
 // Create the server
 const server = http.createServer((req, res) => {
